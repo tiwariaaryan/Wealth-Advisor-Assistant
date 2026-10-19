@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 480" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0B0F19; }
+      .step-card { fill: #1E293B; rx: 12px; stroke: #334155; stroke-width: 1.5; }
+      .step-hitl { fill: #1E293B; rx: 12px; stroke: #F59E0B; stroke-width: 2.5; }
+      .step-llm { fill: #1E293B; rx: 12px; stroke: #10B981; stroke-width: 2.5; }
+      .step-num { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 800; fill: #38BDF8; letter-spacing: 1.5px; }
+      .step-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #FFFFFF; }
+      .step-detail { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #94A3B8; }
+      .connector { stroke: #38BDF8; stroke-width: 2; fill: none; }
+      .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 800; fill: #F8FAFC; }
+      .header-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; fill: #94A3B8; }
+    </style>
+    <marker id="flow-arrow" markerWidth="9" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 9 3, 0 6" fill="#38BDF8" />
+    </marker>
+  </defs>
+
+  <rect width="1150" height="480" class="bg" rx="16"/>
+
+  <text x="50" y="50" class="header-title">🔄 End-to-End Execution Lifecycle</text>
+  <text x="50" y="74" class="header-sub">How an advisor session flows through deterministic math, human governance, and Gemini AI synthesis</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="110" width="190" height="310" class="step-card" />
+  <text x="60" y="140" class="step-num">STEP 01</text>
+  <text x="60" y="165" class="step-title">Ingest &amp; Enrich</text>
+  <text x="60" y="195" class="step-detail">• Validate Financial JSON</text>
+  <text x="60" y="215" class="step-detail">• Pydantic schema check</text>
+  <text x="60" y="235" class="step-detail">• Query CRM Profile</text>
+  <text x="60" y="255" class="step-detail">• Extract Risk Mandate</text>
+  <text x="60" y="275" class="step-detail">• Error fallback shielding</text>
+  <rect x="60" y="345" width="150" height="50" rx="6" fill="#0F172A" stroke="#334155" />
+  <text x="135" y="367" font-size="11" fill="#38BDF8" font-weight="700" text-anchor="middle">DataFetcherAgent</text>
+  <text x="135" y="383" font-size="10" fill="#64748B" text-anchor="middle">+ CRMTool</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <path d="M 230 265 L 260 265" class="connector" marker-end="url(#flow-arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="260" y="110" width="190" height="310" class="step-card" />
+  <text x="280" y="140" class="step-num">STEP 02</text>
+  <text x="280" y="165" class="step-title">Analyze &amp; Detect</text>
+  <text x="280" y="195" class="step-detail">• Exact AUM &amp; Net Worth</text>
+  <text x="280" y="215" class="step-detail">• Asset Class Split %</text>
+  <text x="280" y="235" class="step-detail">• Cash Drag &gt; 20% Flag</text>
+  <text x="280" y="255" class="step-detail">• Z-Score &gt; 2.5σ Spikes</text>
+  <text x="280" y="275" class="step-detail">• Risk Mandate Audit</text>
+  <rect x="280" y="345" width="150" height="50" rx="6" fill="#0F172A" stroke="#334155" />
+  <text x="355" y="367" font-size="11" fill="#F59E0B" font-weight="700" text-anchor="middle">AnalyzerAgent</text>
+  <text x="355" y="383" font-size="10" fill="#64748B" text-anchor="middle">+ Math &amp; Anomaly Tools</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <path d="M 450 265 L 480 265" class="connector" marker-end="url(#flow-arrow)"/>
+
+  <!-- Step 3: HITL -->
+  <rect x="480" y="110" width="190" height="310" class="step-hitl" />
+  <text x="500" y="140" class="step-num" fill="#F59E0B">STEP 03 (HITL)</text>
+  <text x="500" y="165" class="step-title">Human Review</text>
+  <text x="500" y="195" class="step-detail">• Pipeline Pauses Alert</text>
+  <text x="500" y="215" class="step-detail">• Advisor Audits Flags</text>
+  <text x="500" y="235" class="step-detail">• Mark False Positives</text>
+  <text x="500" y="255" class="step-detail">• Inject Custom Directives</text>
+  <text x="500" y="275" class="step-detail">• Fiduciary Approval</text>
+  <rect x="500" y="345" width="150" height="50" rx="6" fill="#0F172A" stroke="#F59E0B" />
+  <text x="575" y="367" font-size="11" fill="#F59E0B" font-weight="700" text-anchor="middle">Human-In-The-Loop</text>
+  <text x="575" y="383" font-size="10" fill="#94A3B8" text-anchor="middle">Supervisory Gate</text>
+
+  <!-- Arrow 3 -> 4 -->
+  <path d="M 670 265 L 700 265" class="connector" marker-end="url(#flow-arrow)"/>
+
+  <!-- Step 4: LLM -->
+  <rect x="700" y="110" width="190" height="310" class="step-llm" />
+  <text x="720" y="140" class="step-num" fill="#10B981">STEP 04 (AI)</text>
+  <text x="720" y="165" class="step-title">Gemini Synthesis</text>
+  <text x="720" y="195" class="step-detail">• Feed Enriched Context</text>
+  <text x="720" y="215" class="step-detail">• Apply Human Notes</text>
+  <text x="720" y="235" class="step-detail">• Strict Pydantic Schema</text>
+  <text x="720" y="255" class="step-detail">• Generate Action Items</text>
+  <text x="720" y="275" class="step-detail">• Rebalancing Matrix</text>
+  <rect x="720" y="345" width="150" height="50" rx="6" fill="#0F172A" stroke="#10B981" />
+  <text x="795" y="367" font-size="11" fill="#10B981" font-weight="700" text-anchor="middle">AdvisorAgent</text>
+  <text x="795" y="383" font-size="10" fill="#94A3B8" text-anchor="middle">Google Gemini 2.5</text>
+
+  <!-- Arrow 4 -> 5 -->
+  <path d="M 890 265 L 920 265" class="connector" marker-end="url(#flow-arrow)"/>
+
+  <!-- Step 5: Deliver -->
+  <rect x="920" y="110" width="190" height="310" class="step-card" />
+  <text x="940" y="140" class="step-num">STEP 05</text>
+  <text x="940" y="165" class="step-title">Deliver &amp; Persist</text>
+  <text x="940" y="195" class="step-detail">• Render UI Dashboard</text>
+  <text x="940" y="215" class="step-detail">• Update Long-Term Store</text>
+  <text x="940" y="235" class="step-detail">• Save Override History</text>
+  <text x="940" y="255" class="step-detail">• Export JSON Report</text>
+  <text x="940" y="275" class="step-detail">• Interactive Q&amp;A Chat</text>
+  <rect x="940" y="345" width="150" height="50" rx="6" fill="#0F172A" stroke="#334155" />
+  <text x="1015" y="367" font-size="11" fill="#38BDF8" font-weight="700" text-anchor="middle">UI &amp; Memory Store</text>
+  <text x="1015" y="383" font-size="10" fill="#64748B" text-anchor="middle">Streamlit / CLI / JSON</text>
+
+</svg>
