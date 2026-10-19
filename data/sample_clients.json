@@ -1,0 +1,245 @@
+{
+  "client_001": {
+    "client_id": "client_001",
+    "name": "Arthur Pendleton",
+    "age": 68,
+    "occupation": "Retired Civil Engineer",
+    "annual_income": 85000,
+    "currency": "USD",
+    "cash_balance": 395000,
+    "holdings": [
+      {
+        "symbol": "VTI",
+        "name": "Vanguard Total Stock Market ETF",
+        "asset_class": "Equities",
+        "quantity": 1200,
+        "current_price": 270.50,
+        "total_value": 324600
+      },
+      {
+        "symbol": "BND",
+        "name": "Vanguard Total Bond Market ETF",
+        "asset_class": "Fixed Income",
+        "quantity": 4500,
+        "current_price": 72.80,
+        "total_value": 327600
+      },
+      {
+        "symbol": "JNJ",
+        "name": "Johnson & Johnson",
+        "asset_class": "Equities",
+        "quantity": 600,
+        "current_price": 162.30,
+        "total_value": 97380
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "Bitcoin (via Trust)",
+        "asset_class": "Crypto / Alternative",
+        "quantity": 0.5,
+        "current_price": 68000.00,
+        "total_value": 34000
+      }
+    ],
+    "liabilities": [
+      {
+        "name": "Reverse Mortgage Balance",
+        "amount": 42000,
+        "interest_rate": 4.2
+      }
+    ],
+    "recent_transactions": [
+      {
+        "id": "tx_101",
+        "date": "2026-10-01",
+        "type": "CREDIT",
+        "category": "Pension",
+        "amount": 5400.00,
+        "description": "Monthly State Pension Deposit"
+      },
+      {
+        "id": "tx_102",
+        "date": "2026-10-04",
+        "type": "DEBIT",
+        "category": "Living Expenses",
+        "amount": 1850.00,
+        "description": "Healthcare & Pharmacy Expenses"
+      },
+      {
+        "id": "tx_103",
+        "date": "2026-10-09",
+        "type": "DEBIT",
+        "category": "Utilities",
+        "amount": 420.00,
+        "description": "City Utilities & Electric"
+      },
+      {
+        "id": "tx_104",
+        "date": "2026-10-14",
+        "type": "DEBIT",
+        "category": "Unusual Outflow",
+        "amount": 50000.00,
+        "description": "Wire Transfer to External Offshore Crypto Custody (MoonPay/Binance)",
+        "flagged": true
+      },
+      {
+        "id": "tx_105",
+        "date": "2026-10-17",
+        "type": "DEBIT",
+        "category": "Groceries",
+        "amount": 340.00,
+        "description": "Organic Market Weekly"
+      }
+    ]
+  },
+  "client_002": {
+    "client_id": "client_002",
+    "name": "Elena Rostova",
+    "age": 34,
+    "occupation": "VP of Engineering at FinTech Unicorn",
+    "annual_income": 360000,
+    "currency": "USD",
+    "cash_balance": 45000,
+    "holdings": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "asset_class": "Equities",
+        "quantity": 1850,
+        "current_price": 138.00,
+        "total_value": 255300
+      },
+      {
+        "symbol": "QQQ",
+        "name": "Invesco QQQ Trust",
+        "asset_class": "Equities",
+        "quantity": 180,
+        "current_price": 490.00,
+        "total_value": 88200
+      },
+      {
+        "symbol": "ETH-USD",
+        "name": "Ethereum",
+        "asset_class": "Crypto / Alternative",
+        "quantity": 8.0,
+        "current_price": 3100.00,
+        "total_value": 24800
+      }
+    ],
+    "liabilities": [
+      {
+        "name": "Luxury Condo Mortgage",
+        "amount": 620000,
+        "interest_rate": 6.8
+      },
+      {
+        "name": "Securities Margin Loan",
+        "amount": 75000,
+        "interest_rate": 8.5
+      }
+    ],
+    "recent_transactions": [
+      {
+        "id": "tx_201",
+        "date": "2026-10-01",
+        "type": "CREDIT",
+        "category": "Salary",
+        "amount": 18000.00,
+        "description": "Bi-weekly Payroll Direct Deposit"
+      },
+      {
+        "id": "tx_202",
+        "date": "2026-10-05",
+        "type": "DEBIT",
+        "category": "Mortgage",
+        "amount": 4200.00,
+        "description": "Mortgage Auto-Debit"
+      },
+      {
+        "id": "tx_203",
+        "date": "2026-10-12",
+        "type": "DEBIT",
+        "category": "Discretionary",
+        "amount": 6800.00,
+        "description": "Luxury Travel Resort Booking"
+      },
+      {
+        "id": "tx_204",
+        "date": "2026-10-15",
+        "type": "DEBIT",
+        "category": "Debt Service",
+        "amount": 950.00,
+        "description": "Margin Loan Monthly Interest Charge"
+      }
+    ]
+  },
+  "client_003": {
+    "client_id": "client_003",
+    "name": "Marcus Chen",
+    "age": 45,
+    "occupation": "Cardiologist",
+    "annual_income": 420000,
+    "currency": "USD",
+    "cash_balance": 115000,
+    "holdings": [
+      {
+        "symbol": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "asset_class": "Equities",
+        "quantity": 800,
+        "current_price": 580.00,
+        "total_value": 464000
+      },
+      {
+        "symbol": "AGG",
+        "name": "iShares Core U.S. Aggregate Bond ETF",
+        "asset_class": "Fixed Income",
+        "quantity": 2200,
+        "current_price": 98.50,
+        "total_value": 216700
+      },
+      {
+        "symbol": "VNQ",
+        "name": "Vanguard Real Estate ETF",
+        "asset_class": "Real Estate",
+        "quantity": 1100,
+        "current_price": 89.00,
+        "total_value": 97900
+      }
+    ],
+    "liabilities": [
+      {
+        "name": "Medical Practice Expansion Loan",
+        "amount": 180000,
+        "interest_rate": 5.1
+      }
+    ],
+    "recent_transactions": [
+      {
+        "id": "tx_301",
+        "date": "2026-10-02",
+        "type": "CREDIT",
+        "category": "Practice Distribution",
+        "amount": 26000.00,
+        "description": "Hospital Practice Partner Dividend"
+      },
+      {
+        "id": "tx_302",
+        "date": "2026-10-06",
+        "type": "DEBIT",
+        "category": "Options Trading",
+        "amount": 22500.00,
+        "description": "Debit to Unregistered High-Frequency Derivative Brokerage (0-DTE Options)",
+        "flagged": true
+      },
+      {
+        "id": "tx_303",
+        "date": "2026-10-10",
+        "type": "DEBIT",
+        "category": "Education",
+        "amount": 7500.00,
+        "description": "529 College Savings Contribution"
+      }
+    ]
+  }
+}

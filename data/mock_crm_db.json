@@ -1,0 +1,68 @@
+{
+  "client_001": {
+    "client_id": "client_001",
+    "name": "Arthur Pendleton",
+    "risk_profile": "Conservative",
+    "primary_goal": "Capital Preservation & Estate Planning",
+    "target_horizon_years": 15,
+    "kyc_status": "Verified",
+    "tax_bracket": "22%",
+    "target_allocation": {
+      "Equities": 30.0,
+      "Fixed Income": 55.0,
+      "Real Estate": 5.0,
+      "Crypto / Alternative": 0.0,
+      "Cash": 10.0
+    },
+    "advisor_notes": [
+      "Client is risk averse, living off pension and fixed income yields.",
+      "Strict instructions: zero appetite for speculative assets or high volatility.",
+      "Last reviewed in Q2 2026: approved increasing bond duration."
+    ],
+    "last_contact_date": "2026-06-15"
+  },
+  "client_002": {
+    "client_id": "client_002",
+    "name": "Elena Rostova",
+    "risk_profile": "Aggressive Growth",
+    "primary_goal": "Early Financial Independence (FIRE) & Startup Angel Investments",
+    "target_horizon_years": 20,
+    "kyc_status": "Verified",
+    "tax_bracket": "37%",
+    "target_allocation": {
+      "Equities": 70.0,
+      "Fixed Income": 10.0,
+      "Real Estate": 10.0,
+      "Crypto / Alternative": 5.0,
+      "Cash": 5.0
+    },
+    "advisor_notes": [
+      "Client is tech-savvy with strong conviction in AI equities.",
+      "Warning given on margin debt interest rate exposure (8.5%).",
+      "Goal is to reduce single-company concentration below 25% over time without triggering huge capital gains."
+    ],
+    "last_contact_date": "2026-09-02"
+  },
+  "client_003": {
+    "client_id": "client_003",
+    "name": "Marcus Chen",
+    "risk_profile": "Moderate",
+    "primary_goal": "Children's Ivy League College Fund + Wealth Accumulation",
+    "target_horizon_years": 12,
+    "kyc_status": "Verified",
+    "tax_bracket": "35%",
+    "target_allocation": {
+      "Equities": 55.0,
+      "Fixed Income": 30.0,
+      "Real Estate": 10.0,
+      "Crypto / Alternative": 0.0,
+      "Cash": 5.0
+    },
+    "advisor_notes": [
+      "Client is a busy physician, prefers automated passive index funds.",
+      "Expresses desire to avoid gambling or speculative day-trading.",
+      "Looking to optimize tax-advantaged college savings (529)."
+    ],
+    "last_contact_date": "2026-08-20"
+  }
+}
